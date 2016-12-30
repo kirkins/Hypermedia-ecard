@@ -658,6 +658,7 @@ readTextFile("data/card.json", function(text){
   // End of snowStorm
 })
 
+// Additional mods by PK
 // Count down function
 function showRemaining() {
   var now = new Date()
