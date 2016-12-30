@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "letter": {
+      "type": "string"
+    },
+    "subtitle2": {
+      "type": "string"
+    },
+    "countDown": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "alt": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "src"
+        ]
+      }
+    },
+    "snowConfig": {
+      "type": "object",
+      "properties": {
+        "autoStart": {
+          "type": "boolean"
+        },
+        "excludeMobile": {
+          "type": "boolean"
+        },
+        "flakesMax": {
+          "type": "integer"
+        },
+        "flakesMaxActive": {
+          "type": "integer"
+        },
+        "animationInterval": {
+          "type": "integer"
+        },
+        "useGPU": {
+          "type": "boolean"
+        },
+        "className": {
+          "type": "null"
+        },
+        "flakeBottom": {
+          "type": "null"
+        },
+        "followMouse": {
+          "type": "boolean"
+        },
+        "snowColor": {
+          "type": "string"
+        },
+        "snowCharacter": {
+          "type": "string"
+        },
+        "snowStick": {
+          "type": "boolean"
+        },
+        "useMeltEffect": {
+          "type": "boolean"
+        },
+        "useTwinkleEffect": {
+          "type": "boolean"
+        },
+        "usePositionFixed": {
+          "type": "boolean"
+        },
+        "usePixelPosition": {
+          "type": "boolean"
+        },
+        "freezeOnBlur": {
+          "type": "boolean"
+        },
+        "flakeLeftOffset": {
+          "type": "integer"
+        },
+        "flakeRightOffset": {
+          "type": "integer"
+        },
+        "flakeWidth": {
+          "type": "integer"
+        },
+        "flakeHeight": {
+          "type": "integer"
+        },
+        "vMaxX": {
+          "type": "integer"
+        },
+        "vMaxY": {
+          "type": "integer"
+        },
+        "zIndex": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "countDown"
+  ]
+}
