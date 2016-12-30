@@ -659,6 +659,7 @@ readTextFile("data/card.json", function(text){
 })
 
 // Additional mods by PK
+
 // Count down function
 function showRemaining() {
   var now = new Date()
@@ -672,14 +673,14 @@ function showRemaining() {
   var hours = Math.floor((distance % _day) / _hour)
   var minutes = Math.floor((distance % _hour) / _minute)
   var seconds = Math.floor((distance % _minute) / _second)
-
   document.getElementById('countdown').innerHTML = days + 'days '
   document.getElementById('countdown').innerHTML += hours + 'hrs '
   document.getElementById('countdown').innerHTML += minutes + 'mins '
   document.getElementById('countdown').innerHTML += seconds + 'secs'
 }
-
 timer = setInterval(showRemaining, 1000)
+
+// add image banner click event which scrolls through images defined in json
 var imgNum = 0;
 document.getElementById("imgBanner").onclick = function() {
   imgNum++
