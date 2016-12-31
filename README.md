@@ -1,6 +1,6 @@
 #Hypermedia e-card
 
-[Demo page](https://kirkins.github.io/Hypermedia-ecard/#)
+[Demo page](https://kirkins.github.io/json-snowstorm-ecard/#)
 
 This e-card is based off the [snowStorm javascript library] (https://github.com/scottschiller/Snowstorm).
 
